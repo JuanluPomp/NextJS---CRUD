@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Sesesp/Desktop/nextjs-prisma-crud/src/app/api/task/route.js"],"sourcesContent":["import { NextResponse } from \"next/server\"\r\n\r\nexport function GET(){\r\n    try {\r\n        return NextResponse.json('Obteniendo nueva tarea')\r\n    } catch (error) {\r\n        console.log(error.message)\r\n    }\r\n}\r\nexport function POST(){\r\n    try {\r\n        return NextResponse.json('Creando nueva tarea')\r\n    } catch (error) {\r\n        console.log(error.message)\r\n    }\r\n}"],"names":[],"mappings":";;;;AAAA;;AAEO,SAAS;IACZ,IAAI;QACA,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;IAC7B,EAAE,OAAO,OAAO;QACZ,QAAQ,GAAG,CAAC,MAAM,OAAO;IAC7B;AACJ;AACO,SAAS;IACZ,IAAI;QACA,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;IAC7B,EAAE,OAAO,OAAO;QACZ,QAAQ,GAAG,CAAC,MAAM,OAAO;IAC7B;AACJ"}},
+    {"offset": {"line": 75, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

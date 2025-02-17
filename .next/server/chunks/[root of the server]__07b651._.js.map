@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/Sesesp/Desktop/nextjs-prisma-crud/src/app/api/task/%5Bid%5D/route.js"],"sourcesContent":["import { NextResponse } from \"next/server\"\r\n\r\n\r\nexport async function GET(request, {params}){\r\n    try {\r\n        const {id} = await params\r\n        return NextResponse.json(\"tarea recuperada: \"+ id)\r\n    } catch (error) {\r\n    }\r\n}"],"names":[],"mappings":";;;AAAA;;AAGO,eAAe,IAAI,OAAO,EAAE,EAAC,MAAM,EAAC;IACvC,IAAI;QACA,MAAM,EAAC,EAAE,EAAC,GAAG,MAAM;QACnB,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,uBAAsB;IACnD,EAAE,OAAO,OAAO,CAChB;AACJ"}},
+    {"offset": {"line": 66, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
