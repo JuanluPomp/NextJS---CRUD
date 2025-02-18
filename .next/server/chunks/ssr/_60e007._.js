@@ -13,13 +13,81 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function NewTask() {
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            children: "NewTask"
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: " container mx-auto w-1/3 mt-15 shadow-xl",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                className: " bg-white h-screen flex flex-col items-center space-y-10 p-10 rounded-xl ",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: " text-center text-3xl font-bold",
+                        children: "LLene el siguiente formulario para registrar un nuevo cliente"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/new-task/page.jsx",
+                        lineNumber: 11,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                        htmlFor: "title",
+                        className: " m-1 self-start font-bold text-md",
+                        children: "Nombre del cliente"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/new-task/page.jsx",
+                        lineNumber: 12,
+                        columnNumber: 15
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                        type: "text",
+                        id: "title",
+                        placeholder: "Nombre",
+                        className: " bg-slate-100 border border-slate-500 w-full rounded-sm p-2 text-black"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/new-task/page.jsx",
+                        lineNumber: 15,
+                        columnNumber: 15
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                        htmlFor: "descripcion",
+                        className: " m-1 self-start font-bold text-md",
+                        children: "Descripcion o datos del cliente del cliente"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/new-task/page.jsx",
+                        lineNumber: 21,
+                        columnNumber: 15
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                        name: "",
+                        id: "descripcion",
+                        rows: "3",
+                        className: "  bg-slate-100 border border-slate-500 w-full rounded-sm p-2",
+                        placeholder: "Descripcion"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/new-task/page.jsx",
+                        lineNumber: 24,
+                        columnNumber: 15
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        type: "submit",
+                        className: " bg-sky-500 border hover:bg-sky-600 cursor-pointer border-slate-500 w-full p rounded-lg text-white font-bold text-xl p-2 text-black",
+                        children: "Registrar Cliente"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/new-task/page.jsx",
+                        lineNumber: 29,
+                        columnNumber: 15
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/new-task/page.jsx",
+                lineNumber: 10,
+                columnNumber: 11
+            }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/new-task/page.jsx",
-            lineNumber: 6,
-            columnNumber: 9
+            lineNumber: 9,
+            columnNumber: 7
         }, this)
     }, void 0, false);
 }

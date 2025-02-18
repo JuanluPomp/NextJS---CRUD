@@ -14,6 +14,7 @@ export async function GET(request, {params}){
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
     }
 }
+
 export async function PUT(request, {params}){
     try {
         const data = await request.json()
@@ -29,13 +30,14 @@ export async function PUT(request, {params}){
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }
+
 export async function DELETE(request, {params}){
     try {
         const {id} = await params
         await prisma.task.delete({where:{
             id: Number(id)
         }})
-        return NextResponse.json("Eliminando tarea: "+ id)
+        return NextResponse.json(`Tarea ${id} eliminada`)
     } catch (error) {
         return NextResponse.json({ error: error.message }, { status: 500 });
     }

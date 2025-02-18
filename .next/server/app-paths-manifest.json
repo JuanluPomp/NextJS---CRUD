@@ -1,4 +1,9 @@
 {
+  "/page": "app/page.js",
   "/api/task/route": "app/api/task/route.js",
-  "/api/task/[id]/route": "app/api/task/[id]/route.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/task/[id]/route": "app/api/task/[id]/route.js",
+  "/new-task/page": "app/new-task/page.js",
+  "/tasks/edit/[id]/page": "app/tasks/edit/[id]/page.js",
+  "/about/page": "app/about/page.js"
 }

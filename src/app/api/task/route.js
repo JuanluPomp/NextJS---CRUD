@@ -1,4 +1,5 @@
 import {prisma} from '@/lib/prisma'
+import { validateRequest } from '@/middlewares/validateRequest'
 import { NextResponse } from "next/server"
 
 export async function GET(){
@@ -20,6 +21,6 @@ export async function POST(request){
         })
         return NextResponse.json(newTask)
     } catch (error) {
-        console.log(error.message)
+        return NextResponse.json({error: error.message},{status: 500})
     }
 }
